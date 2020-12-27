@@ -1,3 +1,5 @@
+# Projector module to fuse transformer output with the feature map.
+
 import torch
 import torchvision
 import torch.nn as nn

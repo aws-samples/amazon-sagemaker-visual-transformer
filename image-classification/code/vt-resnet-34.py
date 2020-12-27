@@ -234,8 +234,6 @@ if __name__ == '__main__':
                         help='random seed (default: 1)')
     parser.add_argument('--log-interval', type=int, default=100, metavar='N',
                         help='how many batches to wait before logging training status')
-    parser.add_argument('--backend', type=str, default=None,
-                        help='backend for distributed training (tcp, gloo on cpu and gloo, nccl on gpu)')
     parser.add_argument('--num_classes', type=int, default=None, 
                         help='number of classes')
 

@@ -1,3 +1,5 @@
+# Tokenizer module to convert feature maps into visual tokens.
+
 import torch
 import torchvision
 import torch.nn as nn
