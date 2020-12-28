@@ -6,7 +6,7 @@
 
 In standard image classification algorithms like ResNet, InceptionNet etc., images are represented as pixel arrays on which a series of convolution operations are performed. Although, great accuracy has been achieved with these algorithms, the convolution operation is computationally expensive. Therefore, in this notebook we will look at an alternative way to perform `Image Classification` using the ideas mentioned in the `Visual Transformers: Token-based Image Representation and Processing for Computer Vision` [research paper](https://arxiv.org/pdf/2006.03677.pdf). 
 
-<img src=./img/vt.png width="600" height="270">
+<img src=./img/vt.png width="600" height="300">
 
 Diagram of a Visual Transformer (VT). 
 <br>
